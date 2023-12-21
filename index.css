@@ -201,22 +201,32 @@ div.name{
 
     
 }
-div.name > div.label > p{
-    color: #1D2C3C
+div.label{
+    display: flex;
+    flex-direction: column;
+}
+input::placeholder, .cardish > p{
+    color: #646E7A;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-div.placeholder{
-    
-    width: 227px;
+input#email{
+    width: 370px;
     height: 36px;
-    border-radius: 4px;
-    background-color: #EDEFF2;   
 }
-div.placeholder > p{
+input {
     
     color: #646E7A;
     padding-left: 13px;
     padding-top: 9px;
+    width: 227px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #EDEFF2;   
 
 }
 li{
@@ -236,6 +246,15 @@ div.credit-card{
         padding-left: 13px;
 
     }
+}
+.cardish{
+    color: #646E7A;
+    padding-left: 13px;
+    padding-top: 9px;
+    width: 227px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #EDEFF2; 
 }
 div#card{
     display: flex;
