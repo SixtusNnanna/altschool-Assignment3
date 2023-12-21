@@ -58,6 +58,15 @@
 
        
     }
+    li:hover{
+        border: 2px solid  #548BC5;
+        width: 91px;
+        height: 40px;
+    }
+    ul.navigations li:last-child:hover{
+        background-color: #548BC5;
+        color: #F5F7FA;
+    }
    
     ul.navigations li:last-child{ 
         display: flex;
@@ -227,6 +236,9 @@ input {
     background-color: #EDEFF2;   
 
 }
+input:hover{
+    border: 2px solid #548BC5;
+}
 li{
     list-style: none;
 }
@@ -268,7 +280,7 @@ div#email{
     gap: 350px;
 }
 
-div.placeholder2{
+button{
     width: 483px;
     height: 52px;
     margin-top: 39px;
@@ -278,7 +290,7 @@ div.placeholder2{
     margin-bottom: 24px;
 }
 
-div.placeholder2 > p {
+button span {
     color: #FFF;
     text-align: center;   
     font-size: 1.286rem;   
@@ -286,6 +298,9 @@ div.placeholder2 > p {
     letter-spacing: -0.396px;
     padding-top: 13px;
 
+}
+button:hover{
+    border: 2px solid #F5F7FA;
 }
 
 div.footer1{
