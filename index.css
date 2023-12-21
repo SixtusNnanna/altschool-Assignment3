@@ -39,8 +39,8 @@
 
 .nav-bar{
     display: flex;
+   justify-content: space-between;
     align-items: center;
-    justify-content: flex-end;
     width: 1358px;
     height: 60px;
     margin-top: 20px;
@@ -54,6 +54,7 @@
         color: #1D2C3C;
         font-weight: 700;
         letter-spacing: -0.01px;
+     
 
        
     }
@@ -66,19 +67,14 @@
         height: 40px;
         border-radius: 6px;
         border: 2px solid #646E7A;
-        margin-top: -15px;
+        margin-top: -8px;
        
     }
 
     figure{
-        margin-right: auto;
         width: 200px;
         height: 39px;
-        margin-top: 20px;
-      
-       
-                
-        
+        margin-top: 20px;        
     }
    
   
@@ -198,6 +194,7 @@ div.name{
     display: flex;
     gap:30px;
     padding-left: 9px;
+    margin-top: 9px;
 
     
 }
@@ -205,7 +202,8 @@ div.label{
     display: flex;
     flex-direction: column;
 }
-input::placeholder, .cardish > p{
+input::placeholder{
+    margin-bottom: 12px;
     color: #646E7A;
     font-family: Lato;
     font-size: 14px;
@@ -247,16 +245,8 @@ div.credit-card{
 
     }
 }
-.cardish{
-    color: #646E7A;
-    padding-left: 13px;
-    padding-top: 9px;
-    width: 227px;
-    height: 36px;
-    border-radius: 4px;
-    background-color: #EDEFF2; 
-}
-div#card{
+
+input#card{
     display: flex;
     justify-content: flex-start;
     gap: 15px;
